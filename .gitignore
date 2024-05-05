@@ -1,0 +1,7 @@
+db.sqlite3
+pyvenv.cfg
+Lib/site-packages
+Scripts
+Churn/__pycache__
+ChurnShield/__pycache__
+Churn/migrations/__pycache__
