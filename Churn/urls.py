@@ -10,6 +10,7 @@ urlpatterns = [
     path('ChurnShield/services/customerpage',views.customerpage,name='employee'),
     path('ChurnShield/login',views.loginpage,name='login'),
     path('ChurnShield/save/',views.savepage,name='save'),
+    path('ChurnShield/contact',views.send_email,name='send_email'),
     path('ChurnShield/contact',views.contactpage,name='contact'),
     path('ChurnShield/about',views.aboutpage,name='about'),
     path('ChurnShield/custom',views.custompage,name='custom'),

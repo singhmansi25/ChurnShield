@@ -1,7 +1,8 @@
+# Django stuff:
 db.sqlite3
 pyvenv.cfg
-Lib/site-packages
-Scripts
-Churn/__pycache__
-ChurnShield/__pycache__
-Churn/migrations/__pycache__
+Lib/*
+Scripts/*
+ChurnShield/__pycache__/
+Churn/migrations/__pycache__/
+Churn/__pycache__/
