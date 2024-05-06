@@ -410,3 +410,33 @@ form button{
     cursor: pointer;
 }
 /* Footer Of the Page ENDS */
+
+/* Sign in button */
+.styled-button {
+    background-color: #5952b6a9; 
+    background: #5852b6a9;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 2rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: 800;
+    text-transform: uppercase;
+      
+}
+
+.styled-button:hover {
+    background-color: #5852b6; 
+}
+
+
+.container button.hidden{
+    background-color: transparent;
+    border-color: #fff;
+}
+
+form .styled-button {
+    background-color:#6760bc;
+}
