@@ -1,6 +1,7 @@
 # Django stuff:
 db.sqlite3
 pyvenv.cfg
+staticfiles
 env/
 venv/
 .env
