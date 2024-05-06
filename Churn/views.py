@@ -19,8 +19,8 @@ def homepage(request):
     return render(request, 'Churn/index.html', context)
 
 def logout_view(request):
-    logout(request)
-    return redirect('')
+    logout(request) 
+    return redirect('home')
 
 def telecompage(request):
     if not request.user.is_authenticated:
