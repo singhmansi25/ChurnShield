@@ -20,7 +20,7 @@ def homepage(request):
 
 def logout_view(request):
     logout(request) 
-    return redirect('login')
+    return redirect('Churn/index.html', context)
 
 
 def telecompage(request):
@@ -92,7 +92,7 @@ def send_email(request):
 
 def aboutpage(request):
     context = {'page': {}}
-    return render(request, 'Churn/About us.html', context)
+    return render(request, 'Churn/Aboutus.html', context)
 
 def custompage(request):
     context = {'page': {}}
