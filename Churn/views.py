@@ -19,10 +19,8 @@ def homepage(request):
     return render(request, 'Churn/index.html', context)
 
 def logout_view(request):
-    logout(request) 
-    context = {'page': {}}
-    return redirect(request, 'Churn/index.html', context)
-
+    logout(request)
+    return redirect('')
 
 def telecompage(request):
     if not request.user.is_authenticated:
@@ -37,6 +35,9 @@ def customerpage(request):
     context = {'page': {}}
     return render(request, 'Churn/Customer.html', context)
 
+def aboutpage(request):
+    context = {'page': {}}
+    return render(request, 'Churn/AboutUs.html', context)
 
 def loginpage(request):
     context = {'page': {}}
@@ -90,10 +91,6 @@ def send_email(request):
     finally:
         context = {'page': {}}
         return render(request, 'Churn/Contact.html', context)
-
-def aboutpage(request):
-    context = {'page': {}}
-    return render(request, 'Churn/Aboutus.html', context)
 
 def custompage(request):
     context = {'page': {}}
