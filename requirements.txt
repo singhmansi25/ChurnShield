@@ -2,3 +2,6 @@ django
 sqlparse
 asgiref
 tzdata
+python-dotenv
+django-redis
+psycopg2-binary
