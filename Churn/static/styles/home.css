@@ -23,7 +23,7 @@ header{
 }
 
 .logo1{
-    background-image: url("/static/images/Logo.png");
+    background-image: url("../images/Logo.png");
     background-position: center;
     background-size: cover;
     height: 3rem;

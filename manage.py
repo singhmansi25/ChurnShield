@@ -7,12 +7,12 @@ from dotenv import load_dotenv
 def main():
     """Run administrative tasks."""
     # Only for Local Development - Load environment variables from the .env file
-    if 'WEBSITE_HOSTNAME' not in os.environ:
+    if 'WEBAPP' not in os.environ:
         print("Loading environment variables for .env file")
         load_dotenv('./.env')
 
     # When running on Azure App Service you should use the production settings.
-    settings_module = "ChurnShield.production" if 'WEBSITE_HOSTNAME' in os.environ else 'ChurnShield.settings'
+    settings_module = "ChurnShield.production" if 'WEBAPP' in os.environ else 'ChurnShield.settings'
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', settings_module)
 
     try:
