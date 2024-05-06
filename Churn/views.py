@@ -92,12 +92,8 @@ def send_email(request):
         return render(request, 'Churn/Contact.html', context)
 
 def aboutpage(request):
-    try:
-        context = {'page': {}}
-        return render(request, 'Churn/Aboutus.html', context)
-    finally:
-        context = {'page': {}}
-        return render(request, 'Churn/index.html', context)
+    context = {'page': {}}
+    return render(request, 'Churn/Aboutus.html', context)
 
 def custompage(request):
     context = {'page': {}}
