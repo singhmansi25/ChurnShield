@@ -5,3 +5,4 @@ tzdata
 python-dotenv
 django-redis
 psycopg2-binary
+whitenoise
