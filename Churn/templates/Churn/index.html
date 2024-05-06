@@ -37,7 +37,7 @@
                         <div class="sub-menu" style="color: black;"><a href='{%url "custom" %}'>Custom</a></div>
                     </div>
                 </div>
-                <div class="div"><a href='{%url "about" %}'>About Us</a></div>
+                <div class="div"><a href='{%url "aboutus" %}'>About Us</a></div>
                 <div class="div"><a href='{%url "contact" %}'>Contact</a></div>
 
                 {% if user.is_authenticated %}
@@ -128,7 +128,7 @@
         </div>
         <div class="col2">
             <h3>COMPANY</h3>
-            <a href='{%url "about" %}'>About US</a>
+            <a href='{%url "aboutus" %}'>About US</a>
             <a href='{%url "faq" %}'>FAQs</a>
             <form>
                 <input type="email" placeholder="Your Email Address" required>
