@@ -176,6 +176,11 @@ header{
 /* Navigation Bar Ends */
 
 /* Main Content Starts */
+h1 {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
 .main {
     background: linear-gradient(to bottom, #272626, #0c0c0c, #1b1a1a, #242424, #4a4949);
