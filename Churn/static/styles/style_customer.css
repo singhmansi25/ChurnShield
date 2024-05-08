@@ -176,15 +176,6 @@ header{
 /* Navigation Bar Ends */
 
 /* Main Content Starts */
-
-.heading{
-    color: rgb(248, 165, 116);
-    font-size: 3rem;
-}
-.heading span{
-    font-size: 2.4rem;
-}
-
 .main {
     background: linear-gradient(to bottom, #272626, #0c0c0c, #1b1a1a, #242424, #4a4949);
     margin-bottom: -150px;
@@ -313,5 +304,10 @@ form button{
 }
 /* Footer Of the Page ENDS */
 
-
-
+.heading{
+    color: rgb(248, 165, 116);
+    font-size: 3rem;
+}
+.heading span{
+    font-size: 2.4rem;
+}
