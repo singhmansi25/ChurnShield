@@ -353,6 +353,7 @@ form button{
 .heading{
     color: rgb(248, 165, 116);
     font-size: 3rem;
+    text-align: center;
 }
 .heading span{
     font-size: 2.4rem;
