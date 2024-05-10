@@ -86,7 +86,7 @@ def send_email(request):
                 'message':message,
             }
             message = '''Email:\t{}\n From:\t{} {}\n Message:\t{}\n Phone:\t{}'''.format(form_data['email'], form_data['firstname'], form_data['lastname'], form_data['message'], form_data['phone'])
-            send_mail('Email from ChurnShield!', message, '', ['helpdesk.churnshield@gmail.com']) #
+            send_mail('Email from ChurnShield!', message, '', ['helpdesk.churnsheild@gmail.com']) #
             
     finally:
         context = {'page': {}}
